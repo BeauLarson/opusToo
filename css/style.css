@@ -1,0 +1,397 @@
+/*Ange Rivera 2013*/
+/*Menu and Events Stylesheet*/
+
+@font-face
+{
+	font-family:BebasNeue;
+	font-weight:normal;
+	font-style:normal;
+	src: url('fonts/BebasNeue-webfont.ttf'),
+		 url('fonts/BebasNeue-webfont.woof'),
+		 url('fonts/BebasNeue-webfont.svg'),
+		 url('fonts/BebasNeue-webfont.eot');
+}
+
+
+.row
+{
+	margin:25% 0% 25% 0%!important;
+}
+
+/*navigation style*/
+.nav-collapse
+{
+	margin-top:15px !important;
+}
+
+.navbar p
+{
+	font-family:century gothic !important;
+	font-size:20px !important;
+	color:#FFF !important;
+	text-align:right;
+	margin:5px 0px 5px 0px !important;
+}
+
+.nav li
+{
+	width:100px;
+	height:75px;
+	background-color:#FFF;
+	margin:0px 0px 0px 10px !important;
+}
+
+.nav li a
+{
+	font-family:Bebasneue;
+	font-size:30px;
+	line-height:25px;
+	text-decoration:none;
+	text-shadow:none !important;
+	color:#B78B2D !important;
+	padding:12.5px 10px 12.5px 10px !important;
+}
+
+.nav li a:hover
+{
+	font-family:Bebasneue;
+	font-size:30px;
+	line-height:25px;
+	color:#B84726 !important;
+	padding:12.5px 10px 12.5px 10px !important;
+}
+
+.nav .active li
+{
+	background-color:#FFF !important;
+}
+
+.nav .active a
+{
+	font-family:Bebasneue;
+	font-size:30px;
+	line-height:25px;
+	color:#B82025 !important;
+	background-color:#FFF !important;	
+	padding:12.5px 10px 12.5px 10px !important;
+	box-shadow:0px 0px 0px !important;
+}
+
+
+
+
+
+
+
+/*menu modules*/
+#menu1, #menu2, #menu3
+{
+	background-color:#FFF;
+	background-color: rgba(255,255,255,0.2) !important;
+	background-image:url(../img/trans.png);
+	background-repeat:repeat !important;
+	width:300px !important;
+	height:500px;
+	margin:0px !important;
+}
+
+#menu2
+{
+	margin:0px 135px 0px 135px !important;
+}
+
+	/*header*/ /*same for contact & events page*/
+#menu1 h2, #menu2 h2, #menu3 h2
+{
+	font-family:BebasNeue !important;
+	font-size:35px;
+	text-align:center;
+	font-weight:normal;
+	color:#FFF !important;
+	float:right;
+	width:200px;
+	height:30px;
+	margin:25px 0px 25px 0px;
+	padding:10px 10px 10px 0px;
+}
+
+/*menu module heading bg color*/ /*same for contact & events page*/
+#app
+{
+	background-color:#B82025;
+}
+#main
+{
+	background-color:#B84726;
+}
+#dessert
+{
+	background-color:#B78B2D;
+}
+
+
+
+/*menu item styles*/
+#menuItem
+{
+	height:75px;
+	width:300px !important;
+	margin:0px 0px 20px 0px !important;
+	background-color:#FFF;
+	overflow:auto;
+}
+
+#menuItem img
+{
+	float:left;
+}
+
+#menuItem p
+{
+	font-family:century gothic;
+	font-weight:normal;
+	line-height:110%;
+}
+
+/*keeps image from scrolling with text*/
+#thumb
+{
+	position:fixed;
+}
+
+#dish
+{
+	font-size:18px;
+	margin:0px;
+	padding:2px 2px 0px 77px;
+}
+	/*menu dish item color*/
+	#menu1 #dish
+	{
+		color:#B82025;
+	}
+	#menu2 #dish
+	{
+		color:#B84726;
+	}
+	#menu3 #dish
+	{
+		color:#B78B2D;
+	}
+
+#details
+{
+	font-size:14px;
+	margin:0px;
+	padding:0px 10px 2px 77px;
+}
+
+#price
+{
+	margin:0px !important;
+}
+
+#price p
+{
+	font-family:BebasNeue !important;
+	font-size:30px;
+	color:#FFF;
+	text-align:center;
+	margin:10px !important;
+}
+
+/*footer style*/
+#footer
+{
+	background-color: rgba(255,255,255,0.2) !important;
+	background-image: url("../img/trans.png") !important;
+	background-repeat: repeat-x !important;
+	background-repeat: repeat-y !important;
+	height:50px;
+	text-align:center;
+}
+
+#footer p
+{
+	color:#FFF;
+	font-family:century gothic;
+	font-size:16px;
+	margin:0px;
+	padding:15px 0px 15px 0px;
+}
+
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+/*start of event styles*/
+/*menu modules*/
+#event1, #event2, #event3
+{
+	background-color:#FFF;
+	background-color: rgba(255,255,255,0.2) !important;
+	background-image:url(../img/trans.png);
+	background-repeat:repeat !important;
+}
+
+#event1
+{
+	height:500px;
+	margin:0px !important;
+}
+#event2
+{
+	height:250px;
+	margin:0px 0px 50px 0px !important;
+}
+#event3
+{
+	height:200px;
+	margin:0px !important;
+}
+
+	/*header*/ /*same for contact & events page*/
+#event1 h2, #event2 h2, #event3 h2
+{
+	font-family:BebasNeue !important;
+	font-size:35px;
+	text-align:center;
+	font-weight:normal;
+	color:#FFF !important;
+	float:right;
+	width:200px;
+	height:30px;
+	margin:25px 0px 25px 0px;
+	padding:10px 10px 10px 0px;
+}
+/*menu module heading bg color*/ /*same for contact & events page*/
+#event1 h2
+{
+	background-color:#B82025;
+}
+#event2 h2
+{
+	background-color:#B84726;
+}
+#event3 h2
+{
+	background-color:#B78B2D;
+}
+
+/*content style*/
+#content
+{
+	margin:0px 50px 50px 50px !important;
+	overflow:hidden;
+}
+
+#event1 #title
+{
+	font-family:BebasNeue !important;
+	font-size:35px;
+	text-align:left;
+	line-height:normal !important;
+	font-weight:normal;
+	color:#000;
+}
+
+#event2 #content
+{
+	height:100px;
+}
+
+
+/*
+.row
+{
+   margin-top: 200px !important;
+}
+*/
+
+.navbar-inner{  background-color: #fff !important;
+                background-color: rgba(255,255,255,0.2) !important;
+                background-image: url("../img/trans.png") !important;
+              background-repeat: repeat-x !important;
+              background-repeat: repeat-y !important;
+
+              }
+.nav li{width:100px;
+        height: 75px;
+        background-color:white;
+        margin-right: 10px;
+        margin-top: 40px;}
+}
+
+
+
+/* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px !important; 
+      }
+      #footer {
+        background-color: #f5f5f5 !important;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+
+
+/*Karel Bello contact page */
+
+.rowModule  { 
+width: 300px;
+height: 500px;
+background: url(../img/trans.png);
+display:inline-block;  
+}
+
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+body { margin: 0; font-size: 1em; line-height: 1.4; 
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 100%; 
+    position: absolute;
+    left: 0px; 
+    top: 0px; 
+    z-index: 0;
+    background-image: url("../img/kabobs.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+
